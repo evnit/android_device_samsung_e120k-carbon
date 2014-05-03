@@ -1,4 +1,3 @@
-#
 # system.prop for SHV-E120K
 #
 
@@ -14,8 +13,6 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
-
-dev.pm.dyn_samplingrate=1
 
 # Disable GC freed lines
 dalvik.vm.debug.alloc=0
@@ -67,8 +64,6 @@ ro.sf.lcd_density=320
 
 # Fields for custom RIL
 telephony.lteOnGsmDevice=1
-ro.telephony.default_network=9
-ro.ril.def.preferred.network=9
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
@@ -81,4 +76,6 @@ persist.radio.add_power_save=1
 
 # System proverty snapshot disable
 persist.radio.snapshot_disabled=1
-
+debug.composition.type=gpu
+persist.hwc.mdpcomp.enable=false
+dev.pm.dyn_samplingrate=1
